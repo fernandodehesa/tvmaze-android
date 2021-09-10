@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TvMaze</string>
+    <string name="ic_search">Buscar</string>
+    <string name="ic_filter">Filtros</string>
+    <string name="ic_back">Atrás</string>
+    <string name="hint_search">Buscar</string>
+    <string name="visit_site">Visitar sitio</string>
+    <string name="label_rating">rating: %1$s</string>
+    <string name="label_summary">Sinópsis:</string>
+    <string name="label_genres">Géneros:</string>
+    <string name="label_schedule">Horarios:</string>
+    <string name="label_cast">Talentos:</string>
+    <string name="label_date">Fecha:</string>
+    <string name="label_country">País:</string>
+    <string name="title_filters">Filtros</string>
+    <string name="btn_apply">Aplicar</string>
+    <string name="empty_list">No se encontraron resultados</string>
+</resources>

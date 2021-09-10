@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:layout_width="match_parent"
+    tools:layout_height="55dp"
+    tools:background="@color/black"
+    tools:padding="5dp"
+    tools:gravity="center_vertical"
+    tools:orientation="horizontal"
+    tools:parentTag="android.widget.LinearLayout">
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:background="@drawable/ic_chevron_left"
+        android:contentDescription="@string/ic_back"
+        android:backgroundTint="@color/primary"
+        android:layout_width="35dp"
+        android:layout_height="35dp" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        tools:text="Game Shakers"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:layout_marginHorizontal="10dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+</merge>

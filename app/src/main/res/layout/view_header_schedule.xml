@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:layout_width="match_parent"
+    tools:layout_height="55dp"
+    tools:background="@color/black"
+    tools:padding="5dp"
+    tools:gravity="center_vertical"
+    tools:orientation="horizontal"
+    tools:parentTag="android.widget.LinearLayout">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        tools:text="martes 11 de junio 2019"
+        android:textColor="@color/white"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/btnFilter"
+        android:background="@drawable/ic_filter"
+        android:contentDescription="@string/ic_filter"
+        android:layout_marginHorizontal="5dp"
+        android:backgroundTint="@color/primary"
+        android:layout_width="35dp"
+        android:layout_height="35dp" />
+
+    <ImageButton
+        android:id="@+id/btnSearch"
+        android:background="@drawable/ic_search"
+        android:contentDescription="@string/ic_search"
+        android:layout_width="35dp"
+        android:layout_height="35dp" />
+
+</merge>
