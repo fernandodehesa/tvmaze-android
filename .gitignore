@@ -4,7 +4,7 @@
 
 ### Android ###
 # Built application files
-*.apk
+#*.apk
 *.aar
 *.ap_
 *.aab
@@ -135,7 +135,7 @@ output.json
 
 # Keystore files
 *.jks
-*.keystore
+#*.keystore
 
 # Google Services (e.g. APIs or Firebase)
 # google-services.json
